@@ -1,0 +1,10 @@
+/* common shared style */
+body {
+    font-family: 'Merriweather', serif;
+}
+
+/*header style*/
+
+.bgimage{
+    background-image: url('../resources/Banner.png');
+}
