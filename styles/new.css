@@ -22,10 +22,6 @@ body {
 
 .image-text {
     position: absolute;
-    /*top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 80%;*/
     text-align: center;
     color: rgb(0, 0, 0);
 }
@@ -47,7 +43,7 @@ body {
 
 .sec-1 {
     margin: 150px;
-    
+
 }
 
 .sec-1 h1 {
@@ -75,8 +71,113 @@ body {
     font-weight: 700;
 }
 
-.sec-1 img{
+.sec-1 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.sec-2 {
+    background-image: url('../resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    display: flex;
+    margin: 0px 280px;
+    align-items: center;
+
+}
+
+.sec-2 .sec-content {
+    padding: 115px 555px 300px 125px;
+    color: #FFF;
+
+}
+
+.sec-2 .sec-content .sec-greeting {
+    font-size: 30px;
+}
+
+.sec-2 .sec-img {
+    width: 320px;
+    height: 400px;
+    padding: 0px 85px 230px 0px;
+
+}
+
+.sec-3 {
+    margin: 0px 240px 240px 240px;
+
+}
+
+.announcement {
+    padding: 100px 385px 215px 385px;
+    border-radius: 10px;
+    background-color: rgba(255, 0, 0, 0.10);
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-align: center;
+    line-height: 0.5;
+}
+
+.btn {
+    border-radius: 8px;
+    background: #F00;
+    border: 0;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    padding: 16px 32px;
+}
+
+.sec-4 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 240px 240px 240px;
+}
+
+.sec-4 .pic-circle {
+    border-radius: 465px;
+    border: 15px solid #F00;
+
+}
+
+.offer-sec .offer {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.offer-sec .soon {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.offer-sec-2 .year {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.sales{
+    text-align: center;
+    margin: 0px 240px 240px 240px;
+}
+
+.sales .funciton {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.sales .off {
+    color: #070211;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 0.5;
 }
