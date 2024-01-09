@@ -5,7 +5,7 @@ body {
 
 /*header style*/
 
-.image-con{
+.image-con {
     position: relative;
     display: flex;
     align-items: center;
@@ -14,29 +14,69 @@ body {
 
 }
 
-.image-con img{
+.image-con img {
     max-width: 100%;
     height: auto;
     object-fit: cover;
 }
 
-.image-text{
+.image-text {
     position: absolute;
     /*top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80%;*/
     text-align: center;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
-.image-text h4{
-    font-size: 24px;
+.image-text h4 {
+    font-weight: 400px;
+    font-size: 32px;
     margin: 0px;
 }
 
-.image-text h1{
-    font-size: 40px;
+.image-text h1 {
+    font-weight: 900;
+    font-size: 72px;
     margin: 5px 0px;
     line-height: 1.2;
+}
+
+/*main style*/
+
+.sec-1 {
+    margin: 150px;
+    
+}
+
+.sec-1 h1 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+
+}
+
+.sec-1 h5 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.sec-1 h2 {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.sec-1 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
