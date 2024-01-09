@@ -227,3 +227,22 @@ body {
 .container .container-2 {
     display: flex;
 }
+
+.av {
+    background-color: #070211;
+}
+
+.f-1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 240px 240px 240px;
+    color: #FFF;
+}
+
+.av .link {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-left: 240px;
+    margin-right: 240px;
+}
