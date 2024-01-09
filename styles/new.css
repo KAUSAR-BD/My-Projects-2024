@@ -163,7 +163,7 @@ body {
     font-weight: 700;
 }
 
-.sales{
+.sales {
     text-align: center;
     margin: 0px 240px 240px 240px;
 }
@@ -180,4 +180,50 @@ body {
     font-size: 72px;
     font-weight: 900;
     line-height: 0.5;
+}
+
+.sec-5 .new-img {
+    display: flex;
+    justify-content: space-between;
+    margin: 200px 240px 240px 240px;
+}
+
+.sec-5 .new-img .new-img-1 {
+    padding: 0px 0px 150px 0px;
+}
+
+.best-gift {
+    text-align: left;
+    margin: 0px 240px 40px 240px;
+
+}
+
+.best-gift .bg {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.best-gift .ap {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 0.5;
+}
+
+.container {
+    width: 100%;
+    overflow: hidden;
+    margin: 0px 240px 240px 240px;
+}
+
+.container .container-1 {
+    display: flex;
+
+}
+
+.container .container-2 {
+    display: flex;
 }
